@@ -19,12 +19,17 @@
 
     <fragment
         android:id="@+id/nav_fasilitas"
-        android:name="com.prototype.profilsekolah.ui.slideshow.SlideshowFragment"
+        android:name="com.prototype.profilsekolah.ui.fasilitas.FasilitasFragment"
         android:label="@string/menu_fasilitas"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_fasilitas" />
     <fragment
         android:id="@+id/nav_staff"
         android:name="com.prototype.profilsekolah.ui.staff.StaffFragment"
         android:label="@string/menu_staff"
         tools:layout="@layout/fragment_staff"/>
+    <fragment
+        android:id="@+id/nav_extra"
+        android:name="com.prototype.profilsekolah.ui.eskul.EskulFragment"
+        android:label="@string/menu_eskul"
+        tools:layout="@layout/fragment_eskul"/>
 </navigation>

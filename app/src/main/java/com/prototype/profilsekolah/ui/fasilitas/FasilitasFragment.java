@@ -1,4 +1,4 @@
-package com.prototype.profilsekolah.ui.slideshow;
+package com.prototype.profilsekolah.ui.fasilitas;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,18 +10,17 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.prototype.profilsekolah.databinding.FragmentSlideshowBinding;
+import com.prototype.profilsekolah.databinding.FragmentFasilitasBinding;
 
-public class SlideshowFragment extends Fragment {
+public class FasilitasFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentFasilitasBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentFasilitasBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
         final TextView textView = binding.textSlideshow;
         return root;
     }

@@ -10,18 +10,15 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.prototype.profilsekolah.databinding.FragmentHomeBinding;
-import com.prototype.profilsekolah.ui.home.HomeViewModel;
+import com.prototype.profilsekolah.databinding.FragmentStaffBinding;
 
 public class StaffFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentStaffBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentStaffBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
         return root;
     }

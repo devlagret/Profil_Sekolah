@@ -14,9 +14,12 @@
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/activity_start.xml" value="0.1675929884566054" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/app_bar_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_eskul.xml" value="0.18" />
+        <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_fasilitas.xml" value="0.1" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
-        <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_slideshow.xml" value="0.1675929884566054" />
+        <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/fragment_staff.xml" value="0.25" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/layout/nav_header_main.xml" value="0.41767068273092367" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
         <entry key="..\:/Android/Profilsekolah2/app/src/main/res/menu/main.xml" value="0.20416666666666666" />

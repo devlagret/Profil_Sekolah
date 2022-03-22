@@ -10,4 +10,17 @@
     <dimen name="mrgbtm_ikon">10dp</dimen>
     <dimen name="txtsize_primary">10dp</dimen>
     <dimen name="textsize_profile">16dp</dimen>
+
+    <dimen name="crdv_lyh">125dp</dimen>
+    <dimen name="crdv_margin">10dp</dimen>
+    <dimen name="crdv_margin_text">10dp</dimen>
+    <dimen name="crdv_margin_textleft">50dp</dimen>
+    <dimen name="crdv_radius">10dp</dimen>
+    <dimen name="crdv_elev">5dp</dimen>
+    <dimen name="crdv_textsize_primary">20dp</dimen>
+    <dimen name="crdv_textsize_secondary">15dp</dimen>
+    <dimen name="crdv_imgh">115dp</dimen>
+    <dimen name="crdv_imgw">100dp</dimen>
+    <dimen name="crdv_img_mrgintp">5dp</dimen>
+    <dimen name="crdv_img_mrginlf">15dp</dimen>
 </resources>
