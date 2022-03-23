@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.prototype.profilsekolah.databinding.FragmentFasilitasBinding;
 import com.prototype.profilsekolah.databinding.FragmentGalleryBinding;
 
 public class GalleryFragment extends Fragment {
@@ -21,7 +22,7 @@ public class GalleryFragment extends Fragment {
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        final TextView textView = binding.textGallery;
+       
         return root;
     }
 

@@ -10,7 +10,7 @@
     <dimen name="mrgbtm_ikon">10dp</dimen>
     <dimen name="txtsize_primary">10dp</dimen>
     <dimen name="textsize_profile">16dp</dimen>
-
+<!-- Ukuran fragmen staff-->
     <dimen name="crdv_lyh">125dp</dimen>
     <dimen name="crdv_margin">10dp</dimen>
     <dimen name="crdv_margin_text">10dp</dimen>
@@ -23,4 +23,32 @@
     <dimen name="crdv_imgw">100dp</dimen>
     <dimen name="crdv_img_mrgintp">5dp</dimen>
     <dimen name="crdv_img_mrginlf">15dp</dimen>
+<!-- Ukuran fragmen galery-->
+    <dimen name="crdv_imgh_gallery">230dp</dimen>
+    <dimen name="crdv_lyh_gallery">300dp</dimen>
+    <dimen name="crdv_margin_gallery">10dp</dimen>
+    <dimen name="crdv_padbtm_gallery">10dp</dimen>
+    <dimen name="imgmargin_gallery">10dp</dimen>
+    <dimen name="galery_textsize_primary">16dp</dimen>
+    <dimen name="galery_textsize_secondary">12dp</dimen>
+    <dimen name="img_mrgintp_gallery">5dp</dimen>
+<!--Ukuran fragmen fasilitas -->
+    <dimen name="imgh_fasilitas">230dp</dimen>
+    <dimen name="lyh_fasilitas">300dp</dimen>
+    <dimen name="margin_fasilitas">10dp</dimen>
+    <dimen name="padbtm_fasilitas">10dp</dimen>
+    <dimen name="imgmargin_fasilitas">10dp</dimen>
+    <dimen name="fasilitas_textsize_primary">16dp</dimen>
+    <dimen name="fasilitas_textsize_secondary">12dp</dimen>
+    <dimen name="img_mrgintp_fasilitas">5dp</dimen>
+    <!--Ukuran fragmen eskul -->
+    <dimen name="imgh_eskul">230dp</dimen>
+    <dimen name="lyh_eskul">300dp</dimen>
+    <dimen name="margin_eskul">10dp</dimen>
+    <dimen name="padbtm_eskul">10dp</dimen>
+    <dimen name="imgmargin_eskul">10dp</dimen>
+    <dimen name="eskul_textsize_primary">16dp</dimen>
+    <dimen name="eskul_textsize_secondary">12dp</dimen>
+    <dimen name="img_mrgintp_eskul">5dp</dimen>
+
 </resources>

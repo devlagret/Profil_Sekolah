@@ -21,7 +21,7 @@ public class FasilitasFragment extends Fragment {
 
         binding = FragmentFasilitasBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        final TextView textView = binding.textSlideshow;
+
         return root;
     }
 

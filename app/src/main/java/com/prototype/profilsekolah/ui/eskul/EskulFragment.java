@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.prototype.profilsekolah.databinding.FragmentEskulBinding;
 import com.prototype.profilsekolah.databinding.FragmentFasilitasBinding;
 
 public class EskulFragment extends Fragment {
 
-    private FragmentFasilitasBinding binding;
+    private FragmentEskulBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        binding = FragmentFasilitasBinding.inflate(inflater, container, false);
+        binding = FragmentEskulBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        final TextView textView = binding.textSlideshow;
         return root;
     }
 

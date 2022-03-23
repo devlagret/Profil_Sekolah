@@ -16,7 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="1"
             android:columnCount="1"
             android:columnOrderPreserved="false"
             android:rowCount="4">

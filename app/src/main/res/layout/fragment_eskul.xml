@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.eskul.EskulFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lyh_eskul"
+                android:layout_margin="@dimen/margin_eskul"
+                app:cardCornerRadius="@dimen/crdv_radius"
+                app:cardElevation="@dimen/crdv_elev">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/imgh_eskul"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/img_mrgintp_eskul"
+                    android:layout_margin="@dimen/imgmargin_eskul"
+                    android:src="@drawable/logo"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padbtm_eskul">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Extrakurikuler"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/eskul_textsize_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Deskripsi"
+                        android:textColor="#003F9E"
+                        android:textSize="@dimen/eskul_textsize_secondary"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>
