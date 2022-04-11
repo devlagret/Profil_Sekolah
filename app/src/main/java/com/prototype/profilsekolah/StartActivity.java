@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class StartActivity extends AppCompatActivity {
-private static int timer=5000;
+private static int timer=4000;
 
     View ivMenu;
     @Override
@@ -21,15 +21,6 @@ private static int timer=5000;
                 startActivity(i);
                 finish();
             }
-        },timer);
-        ivMenu.setOnClickListener(new View.OnClickListener() {
-            @Override
+        }, timer);
 
-            public void onClick(View view) {
-
-                Intent intent = new Intent(StartActivity.this, MainActivity.class);
-
-                startActivity(intent);
-            }
-        });
     }}

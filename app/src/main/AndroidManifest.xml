@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfilSekolah">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:label="Detail"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ProfilSekolah.NoActionBar">
-
-        </activity>
-        <activity android:name=".StartActivity"
+            android:theme="@style/Theme.ProfilSekolah.NoActionBar"/>
+        <activity
+            android:name=".StartActivity"
             android:exported="true"
             android:theme="@style/Theme.ProfilSekolah.NoActionBar">
             <intent-filter>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
-
     <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:context=".ui.gallery.GalleryFragment"
+        >
 
         <GridLayout
 
@@ -29,6 +26,7 @@
                 app:cardElevation="@dimen/crdv_elev">
 
                 <ImageView
+                    android:id="@+id/gbr1"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/crdv_imgh_gallery"
                     android:layout_gravity="center_horizontal"
@@ -52,7 +50,6 @@
                         android:textColor="#000000"
                         android:textSize="@dimen/galery_textsize_primary"
                         android:textStyle="bold" />
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -66,4 +63,3 @@
             </androidx.cardview.widget.CardView>
         </GridLayout>
     </ScrollView>
-</RelativeLayout>

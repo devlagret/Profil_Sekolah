@@ -1,9 +1,11 @@
 <resources>
+    <string name="nav_header_title">Kalimat utama</string>
+    <string name="nav_header_subtitle">Deskripsi</string>
     <string name="app_name">Profil sekolah</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">SD Kanisius Kedawung</string>
-    <string name="nav_header_subtitle">lorem</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -12,4 +14,20 @@
     <string name="menu_fasilitas">Fasilitas</string>
     <string name="menu_staff">Guru &amp; staff</string>/string>
     <string name="menu_eskul">Extrakurikuler</string>
+
+    <string-array name="nama_eskul">
+        <item>Nama eskul 1</item>
+        <item>Nama eskul 2</item>
+        <item>Nama eskul 3</item>
+        <item>Nama eskul 4</item>
+        <item>Nama eskul 5</item>
+    </string-array>
+    <string-array name="deskripsi_eskul">
+        <item>Deskripsi</item>
+        <item>Deskripsi</item>
+        <item>Deskripsi</item>
+        <item>Deskripsi</item>
+        <item>Deskripsi</item>
+
+    </string-array>
 </resources>

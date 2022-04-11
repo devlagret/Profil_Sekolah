@@ -9,6 +9,8 @@
     <dimen name="bgly_wdh">170dp</dimen>
     <dimen name="mrgbtm_ikon">10dp</dimen>
     <dimen name="txtsize_primary">10dp</dimen>
+    <dimen name="txtsize_primary2">30sp</dimen>
+    <dimen name="txtsize_secondary">20sp</dimen>
     <dimen name="textsize_profile">16dp</dimen>
 <!-- Ukuran fragmen staff-->
     <dimen name="crdv_lyh">125dp</dimen>
@@ -45,10 +47,12 @@
     <dimen name="imgh_eskul">230dp</dimen>
     <dimen name="lyh_eskul">300dp</dimen>
     <dimen name="margin_eskul">10dp</dimen>
+    <dimen name="crd_margin_eskul">5dp</dimen>
     <dimen name="padbtm_eskul">10dp</dimen>
     <dimen name="imgmargin_eskul">10dp</dimen>
     <dimen name="eskul_textsize_primary">16dp</dimen>
     <dimen name="eskul_textsize_secondary">12dp</dimen>
     <dimen name="img_mrgintp_eskul">5dp</dimen>
-
+    <!-- detail fragmen-->
+    <dimen name="pad_det">10dp</dimen>
 </resources>
