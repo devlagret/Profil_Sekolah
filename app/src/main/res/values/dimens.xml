@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
-    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="nav_header_height">250dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="lebar_bg_ikon">200dp</dimen>
     <dimen name="bgly_wdh">170dp</dimen>
@@ -11,7 +11,7 @@
     <dimen name="txtsize_primary">10dp</dimen>
     <dimen name="txtsize_primary2">30sp</dimen>
     <dimen name="txtsize_secondary">20sp</dimen>
-    <dimen name="textsize_profile">16dp</dimen>
+    <dimen name="textsize_profile">23sp</dimen>
 <!-- Ukuran fragmen staff-->
     <dimen name="crdv_lyh">125dp</dimen>
     <dimen name="crdv_margin">10dp</dimen>
@@ -19,8 +19,8 @@
     <dimen name="crdv_margin_textleft">50dp</dimen>
     <dimen name="crdv_radius">10dp</dimen>
     <dimen name="crdv_elev">5dp</dimen>
-    <dimen name="crdv_textsize_primary">20dp</dimen>
-    <dimen name="crdv_textsize_secondary">15dp</dimen>
+    <dimen name="crdv_textsize_primary">25sp</dimen>
+    <dimen name="crdv_textsize_secondary">15sp</dimen>
     <dimen name="crdv_imgh">115dp</dimen>
     <dimen name="crdv_imgw">100dp</dimen>
     <dimen name="crdv_img_mrgintp">5dp</dimen>
@@ -31,8 +31,8 @@
     <dimen name="crdv_margin_gallery">10dp</dimen>
     <dimen name="crdv_padbtm_gallery">10dp</dimen>
     <dimen name="imgmargin_gallery">10dp</dimen>
-    <dimen name="galery_textsize_primary">16dp</dimen>
-    <dimen name="galery_textsize_secondary">12dp</dimen>
+    <dimen name="galery_textsize_primary">20sp</dimen>
+    <dimen name="galery_textsize_secondary">12sp</dimen>
     <dimen name="img_mrgintp_gallery">5dp</dimen>
 <!--Ukuran fragmen fasilitas -->
     <dimen name="imgh_fasilitas">230dp</dimen>
@@ -45,7 +45,7 @@
     <dimen name="img_mrgintp_fasilitas">5dp</dimen>
     <!--Ukuran fragmen eskul -->
     <dimen name="imgh_eskul">230dp</dimen>
-    <dimen name="lyh_eskul">300dp</dimen>
+    <dimen name="lyh_eskul">320dp</dimen>
     <dimen name="margin_eskul">10dp</dimen>
     <dimen name="crd_margin_eskul">5dp</dimen>
     <dimen name="padbtm_eskul">10dp</dimen>
@@ -55,4 +55,5 @@
     <dimen name="img_mrgintp_eskul">5dp</dimen>
     <!-- detail fragmen-->
     <dimen name="pad_det">10dp</dimen>
+    <dimen name="txt_home_footer_primary">25sp</dimen>
 </resources>

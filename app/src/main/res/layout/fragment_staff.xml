@@ -1,64 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/staffyrycview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context=".ui.staff.StaffFragment">
-
-        <GridLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:columnCount="1"
-            android:columnOrderPreserved="false"
-            android:rowCount="4">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/crdv_lyh"
-                android:layout_margin="@dimen/crdv_margin"
-                app:cardCornerRadius="@dimen/crdv_radius"
-                app:cardElevation="@dimen/crdv_elev">
-
-                <ImageView
-                    android:layout_width="@dimen/crdv_imgw"
-                    android:layout_height="@dimen/crdv_imgh"
-                    android:layout_gravity="start"
-                    android:layout_marginLeft="@dimen/crdv_img_mrginlf"
-                    android:layout_marginTop="@dimen/crdv_img_mrgintp"
-                    android:src="@drawable/logo"
-                    android:layout_marginStart="@dimen/crdv_img_mrginlf" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="@dimen/crdv_margin_textleft"
-                        android:text="Nama Guru"
-                        android:textColor="#000000"
-                        android:textSize="@dimen/crdv_textsize_primary"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="@dimen/crdv_margin_textleft"
-                        android:text="Jabatan"
-                        android:textColor="#003F9E"
-                        android:textSize="@dimen/crdv_textsize_secondary"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-        </GridLayout>
-    </ScrollView>
+        android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,4 +29,10 @@
         android:name="com.prototype.profilsekolah.ui.eskul.EskulFragment"
         android:label="@string/menu_eskul"
         tools:layout="@layout/fragment_eskul"/>
+    <fragment
+        android:id="@+id/nav_bangunan"
+        android:name="com.prototype.profilsekolah.ui.bangunan.BangunanFragment"
+        android:label="@string/menu_bagunan"
+        tools:layout="@layout/fragment_bangunan"/>
+
 </navigation>

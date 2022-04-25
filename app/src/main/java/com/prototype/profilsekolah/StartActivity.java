@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class StartActivity extends AppCompatActivity {
-private static int timer=4000;
+private static int timer=3000;
 
     View ivMenu;
     @Override

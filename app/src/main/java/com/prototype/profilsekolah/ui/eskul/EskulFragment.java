@@ -4,36 +4,35 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.prototype.profilsekolah.MyAdapter;
 import com.prototype.profilsekolah.R;
+import com.prototype.profilsekolah.adapter.EskulAdapter;
 import com.prototype.profilsekolah.databinding.FragmentEskulBinding;
-import com.prototype.profilsekolah.databinding.FragmentFasilitasBinding;
 
 public class    EskulFragment extends Fragment {
     RecyclerView recyclerView;
-String namaesk[], deskripsi[];
-int images[]={R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo, R.drawable.logo};
+    String namaesk[], deskripsi[];
+    int images[]={R.drawable.osn, R.drawable.tenismeja, R.drawable.keyboard,R.drawable.menyanyi, R.drawable.menari, R.drawable.logo, R.drawable.menggambar},
+        jadwal[]={R.drawable.jadwalosn, R.drawable.jadwaltenismeja, R.drawable.jadwalkeyboard, R.drawable.jadwalvokal, R.drawable.jadwaltari, R.drawable.pendampingankls6, R.drawable.jadwalmenggambar};
     private FragmentEskulBinding binding;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentEskulBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-            recyclerView = root.findViewById(R.id.eskulrycview);
+
+        recyclerView = root.findViewById(R.id.eskulrycview);
         namaesk = getResources().getStringArray(R.array.nama_eskul);
         deskripsi = getResources().getStringArray(R.array.deskripsi_eskul);
 
-        MyAdapter myAdapter = new MyAdapter((getContext()), namaesk, deskripsi, images);
-        recyclerView.setAdapter(myAdapter);
+        EskulAdapter eskulAdapter = new EskulAdapter((getContext()), namaesk, deskripsi, images, jadwal);
+        recyclerView.setAdapter(eskulAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-            return root;
+        return root;
         }
         @Override
         public void onDestroyView() {

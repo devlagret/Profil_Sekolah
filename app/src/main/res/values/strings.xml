@@ -1,7 +1,7 @@
 <resources>
-    <string name="nav_header_title">Kalimat utama</string>
-    <string name="nav_header_subtitle">Deskripsi</string>
-    <string name="app_name">Profil sekolah</string>
+    <string name="nav_header_title">SD Kanisius Kedawung</string>
+    <string name="nav_header_subtitle">Mojorejo, RT.11/RW.05,Mojorejo, Mojoroto, Kedawung, Kec. Jumapolo,\n Kabupaten Karanganyar, Jawa Tengah 57783</string>
+    <string name="app_name">SD Kanisius Kedawung</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -16,18 +16,108 @@
     <string name="menu_eskul">Extrakurikuler</string>
 
     <string-array name="nama_eskul">
-        <item>Nama eskul 1</item>
-        <item>Nama eskul 2</item>
-        <item>Nama eskul 3</item>
-        <item>Nama eskul 4</item>
-        <item>Nama eskul 5</item>
+        <item>Siswa Prestasi/OSN</item>
+        <item>Tenis Meja</item>
+        <item>Keyborad</item>
+        <item>Vokal</item>
+        <item>Tari</item>
+        <item>Pendampingan Siswa Kelas VI</item>
+        <item>Menggambar</item>
     </string-array>
     <string-array name="deskripsi_eskul">
-        <item>Deskripsi</item>
-        <item>Deskripsi</item>
-        <item>Deskripsi</item>
-        <item>Deskripsi</item>
-        <item>Deskripsi</item>
+        <item>Olimpiade Sains Nasional (OSN) adalah ajang kompetisi tahunan dalam bidang sains bagi para siswa SD, SMP, dan SMA serta yang sederajat di seluruh Indonesia.
+            Kompetisi ini diselenggarakan oleh Pusat Prestasi Nasional di bawah Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia. Siswa yang mengikuti kompetisi ini adalah siswa-siswi terbaik dari sekolah dan daerah asalnya.\n
+            Dengan extrakurikuler siswa dibimbing dan dilatih untuk berfikir kritis dalam menghadapi persoalan yang diberikan. Selain diberikan pelajaran, selama extrakurikuler siswa juga diberi banyak soal latihan untuk dapat berlatih dalam menghadapi persoalan yang banyak dan beragam kemudian menyelesaikannya.\n
+            Dengan adanya extrakurikuler ini siswa diharapkan selain dapat memenangkan OSN, siswa diharapkan mendapat pengetahuan yang berguna yan dapat diterapkan dalam kehidupan seharihari, selain itu nantinya siswa diharapkan dapat mengharumkan nama sekolah, membanggakan kedua orang tua serta dapat berguna bagi bangsa dan negara.</item>
+        <item>Tenis adalah olahraga yang melibatkan dua atau empat pemain yang memukul bola ringan yang disebut bola pingpong di atas meja menggunakan raket yang disebut bet. Permainan ini dilakukan di atas meja yang dibagi dengan net. Kecuali servis awal, aturan permainan adalah: pemain harus memantulkan bola ke meja lawan dan lawan harus mengembalikannya.
+            Poin akan terjadi jika pemain lawan gagal mengembalikan bola. Permainan ini cepat dan membutuhkan sikap tanggap yang cepat pula. \n Dengan extrakurikuler siswa diharapkan dapat mengasah bakatnya terutama dalam bidang tenis meja dan nentinya dapat di ikutsertakan dalam suatu kompetisi guna menunjukan bakatnya.</item>
+        <item>Extrakurikuler keyborad bertujuan mengembangkan bakat dan minat siswa dalam bermain musik terutama keyboard. Siswa dilatih untuk bermain keyboar dengan benar, tepat dan lancar serta memungkinkan untuk ditugaskan mengiringi kegiatan upacara bendera atau kegiatan lainnya yang membutuhkan iringan keyboard.</item>
+        <item>Extrakurikuler seni vokal bertujuan melatih dan mengembang bakat menyanyi atau vokal siswa.  Di ekstrakulikuler ini siswa dilatih dan dibimbing bagaimana melatih vokal yang baik dan benar. Extrakurikuler ini juga melatih kepecayaan diri dalam tampil dihadapan orang banyak serta diharapkan melahirkan siswa yang kompetitif
+            tidak hanya dibidang akademik namun dibidang non-akademik</item>
+        <item>Tari adalah gerak tubuh yang ritmis sebagai ungkapan ekspresi jiwa pencipta gerak sehingga menghasilkan unsur keindahan dan makna yang mendalam. Tari menitik beratkan konsep dan koreografi yang bersifat kreatif.\n
+        Ekstrakurikuler tari bertujuan untuk memberi kesempatan kepada peserta didik untuk berekspresi, berapresiasi, berkreasi, membentuk harmoni, dan menciptakan keindahan.
+        Ektrakurikuler tari diharapkan mampu melestarikan keragamaan budaya daerah, serta budaya nasional dalam rangka menyikapi arus globalisasi.</item>
+        <item>Extrakurikuler ini lebih mengarah ke jam tambahan bagi siswa kelas VI untuk mempersiapkan ujian sekolah, dengan extrakurikuler ini siswa diharapkan siap dan matang sebelum menghadapi ujian sehingga siswa dapat mengerjakan ujian dengan lancrar tanpa ada halangan serta mendapatkan hasil yang terbaik </item>>
+        <item>Menggambar adalah kegiatan membentuk citra, dengan menggunakan banyak pilihan teknik dan alat. Bisa pula berarti membuat tanda-tanda tertentu di atas permukaan dengan mengolah goresan dari alat gambar.\n
+            Dengan extrakulikuler ini siswa belajar dan memahami dalam membuat gambar bentuk yang berasal dari ide mereka sendiri, agar mereka terus bisa berkembang dan menghasilkan karya yang lebih baik lagi. Mereka juga mengenal dan belajar teknik yang dihasilkan dari berbagai alat gambar tersebut.</item>
+    </string-array>
+
+    <string-array name="nama_fasilitas">
+        <item>Lapangan Basket</item>
+        <item>Lapangan Voli</item>
+        <item>Lapangan Sepakbola</item>
+        <item>Ruang Karawitan</item>
+        <item>Ruang Komputer</item>
+        <item>Kolam Renang</item>
+    </string-array>
+    <string-array name="deskripsi_fasilitas">
+        <item>Lapangan basket ini termasuk lapangan basket mini, berada di samping kelas satu dan dapat menjadi lapangan upacara. Lapangan ini berdekatan dengan lapangan bola dan lapangan voli.</item>
+        <item>Lapangan ini berada dibawah lapangan basket, memiliki ukuran luas dan dapat juga digunakan sebagain lapangan bulu tangkis ataupun lapangan lari.</item>
+        <item>Lapangan ini berada di belakang kelas satu dan disamping lapangan basket, lapangan ini juga dapat digunakan untuk bermain futsal dan memiliki ukuran cukup luas.</item>
+        <item>Ruang karawitan berada berbarengan dengan perpustakaan, memiliki perrangkat karawitan yeng terbilang lengkap dan terawat, biasa digunakan saat diperlukan atau saat ada jadwal pelajaran karawitan.</item>
+        <item>Ruang komputer dapat menampung hingga 25 siswa dan 11 komputer, komputer biasanya digunakan secara bergantian atau berkelompok jika tidak mencukupi, ruang ini juga dilengkapi dengan dua kipas angin.</item>
+        <item>Kolam renang yang mampu menampung hingga 30 siswa, kolam ini dapat berfungsi sebagai tempat praktek siswa saat mata pelajaran olahraga, maupun sebagai tempat rekreasi siswa setelah ujian ataupun setelah kegiatan-kegiatan sekolah.</item>
 
     </string-array>
+
+    <string-array name="jdl_galery">
+        <item>Kegiatan KBM</item>
+        <item>FLSN</item>
+        <item>Pesta Siaga</item>
+        <item>LCC dan Siswa Berprestasi</item>
+        <item>Lomba Tembang Macapat</item>
+    </string-array>
+    <string-array name="deskripsi_galery">
+        <item>Kegiatan belajar mengajar di kelas I</item>
+        <item>Juara 1 FLS2N lomba menyanyi tunggal tingkat kecamatan, dan juara 2 tingkat kabupaten 2020</item>
+        <item>Juara 1 pesta siaga tingkat kecamatan  jumapolo 2020, kemudian mewakili kecamatan ke tingkat kabupaten dan mendapatkan juara harapan I.</item>
+        <item>Juara 1 Lomba Cerdas Cermat dan siswa beprestasi 2022</item>
+        <item>Juara 2 dan 3 lomba tembang macapat</item>
+    </string-array>
+
+    <string-array name="nama_guru">
+        <item>Drs. FX. Subarno</item>
+        <item>Yohanes Nova Avianto, S. Pd</item>
+        <item>Ig. Widodo,S. Pd</item>
+        <item>Al. Trubus Ponco Hananto</item>
+        <item>Bernadeta Tri Hardiyanti, S. Pd</item>
+        <item>Dwi Nopianti, S. Si</item>
+        <item>Florentina Satiti Kurnia Dewi, S. Pd</item>
+        <item>Katarina Suharti, S. Pd</item>
+        <item>Wahyu Darmaningsih, S. Pd</item>
+        <item>Bernadeta Dwi Astuti</item>
+        <item>Prayitno</item>
+        <item>Py. Purwanto</item>
+    </string-array>
+    <string-array name="deskripsi_guru">
+        <item>Kepala Sekolah</item>
+        <item>Guru Kelas V</item>
+        <item>Guru Agama Katolik</item>
+        <item>Guru TIK</item>
+        <item>Guru Kelas I</item>
+        <item>Guru Kelas VI</item>
+        <item>Guru Kelas IV</item>
+        <item>Guru Kelas III</item>
+        <item>Guru Kelas II</item>
+        <item>Pendamping Extrakurikuler Menggambar</item>
+        <item>Guru Karawitan</item>
+        <item>Penjaga Sekolah</item>
+    </string-array>
+
+    <string name="isihome">TUJUAN PENDIDIKAN,\nVISI, MISI, DAN TUJUAN SEKOLAH\nA.	Tujuan Pendidikan/nTujuan Pendidikan Nasional adalah berkembangnya potensi peserta didik agar menjadi manusia yang: beriman dan bertakwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab./nTujuan Pendidikan Dasar adalah meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.\nB.	Visi Sekolah\n"Komunitas pendidikan yang transformatif dan menumbuhkan kemerdekaan berpikir demi terwujudnya sekolah yang unggul, peduli, dan melayani "</string>
+    <string name="copyright">© 2022 SD Kanisius Kedawung</string>
+
+    <string name="nama_sekolah">SD Kanisius Kedawung</string>
+    <string name="jadwal_eskul">Jadwal pelaksanaan ekstrakurikuler :</string>
+    <string name="menu_bagunan">Info Bagunan</string>
+    <string name="text_deskripsi_cardview">Klik utuk melihat deskripsi&#8230;</string>
+
+    <string name="header_contente_desc">Yayasan Kanisius didirikan pada tanggal 31 Agustus 1918 oleh P. Fransiskus van Lith, S.J. di Muntilan. Yayasan kanisius bergerak dibidang pendidikan jenjang TK, SD, SMP hinga SMA</string>
+    <string name="denah_sekolah">Denah Sekolah :</string>
+    <string name="des_bangunan">\tSejak bedirinya SD Kanisius Kedawung, sekolah terus berkembang menjadi lebih baik, renovasi dan pembangunan terus dilakukan serta ditingkatkan agar sekolah semakin lebih maju dan dapat meciptakan lingkungan belajar yang asri, nyaman dan aman. \n\tRencananya pada tahun 2023 akan diadakan pembangunan ruang kelas baru dan diharapkan dapat menambah semangat belajar siswa untuk belajar serta meningkatkan kenyamanan belajar.</string>
+    <string name="rencana_pembangunan">Rencana Pembangunan SD Kanisius Kedawung :</string>
+    <string name="email_adrres">\@tk_sd_kanisius_kedawung</string>
+    <string name="email_cnt">sdkanisiuskedawung\@gmail.com</string>
+
+
 </resources>

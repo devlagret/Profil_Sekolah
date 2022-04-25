@@ -12,15 +12,21 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.github.chrisbanes.photoview.PhotoView;
 import com.prototype.profilsekolah.DetailActivity;
 import com.prototype.profilsekolah.R;
+import com.prototype.profilsekolah.adapter.MyAdapter;
 import com.prototype.profilsekolah.databinding.FragmentFasilitasBinding;
 import com.prototype.profilsekolah.databinding.FragmentGalleryBinding;
 
 public class GalleryFragment extends Fragment {
-ImageView iv;
+    RecyclerView recyclerView;
+    String judul[], deskripsi[];
+    int images[]={R.drawable.kelas, R.drawable.flsn, R.drawable.pestasiaga, R.drawable.lcc2, R.drawable.macapat};
+
     private FragmentGalleryBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -28,25 +34,14 @@ ImageView iv;
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        iv = root.findViewById(R.id.gbr1);
-        iv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(getContext());
-                View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                photoView.setImageResource(R.drawable.kelas);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-//
 
-                mDialog.show();
-//                mDialog.getWindow().setAttributes(lp);
-            }
-        });
+        recyclerView = root.findViewById(R.id.galleryrycview);
+        judul = getResources().getStringArray(R.array.jdl_galery);
+        deskripsi = getResources().getStringArray(R.array.deskripsi_galery);
+
+        MyAdapter mAdapter = new MyAdapter((getContext()), judul, deskripsi, images);
+        recyclerView.setAdapter(mAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         return root;
     }
 
