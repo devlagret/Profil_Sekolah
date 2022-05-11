@@ -7,20 +7,17 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.prototype.profilsekolah.R;
-import com.prototype.profilsekolah.adapter.MyAdapter;
 import com.prototype.profilsekolah.adapter.StaffAdapter;
-import com.prototype.profilsekolah.databinding.FragmentHomeBinding;
 import com.prototype.profilsekolah.databinding.FragmentStaffBinding;
 
 public class StaffFragment extends Fragment {
     RecyclerView recyclerView;
-    String judul[], deskripsi[];
-    int images[]={R.drawable.bpdrsfxsubarno, R.drawable.bpyohanesnovaavianto, R.drawable.igwidodo,
+    String[] judul, deskripsi;
+    int[] images ={R.drawable.bpdrsfxsubarno, R.drawable.bpyohanesnovaavianto, R.drawable.bralbinus,
             R.drawable.paktrubus,R.drawable.ibubernadetatrihardiyanti,
             R.drawable.ibudwinopianti, R.drawable.ibuflorentinasatitikurniadewi, R.drawable.ibukatarinasuharti,
             R.drawable.buwahyu, R.drawable.bernadethadwia,

@@ -9,22 +9,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.chrisbanes.photoview.PhotoView;
-import com.prototype.profilsekolah.DetailActivity;
 import com.prototype.profilsekolah.DetailActivityEskul;
 import com.prototype.profilsekolah.R;
-import com.squareup.picasso.Picasso;
 
 public class EskulAdapter extends RecyclerView.Adapter<EskulAdapter.MyViewHolder>{
 
-    String data1[], data2[];
-    int image[], jdw[];
+    String[] data1, data2;
+    int[] image, jdw;
     Context con;
-    public EskulAdapter(Context ct, String judul[], String des[], int img[], int jadwal[]){
+    public EskulAdapter(Context ct, String[] judul, String[] des, int[] img, int[] jadwal){
         con = ct;
         data1 = judul;
         data2 = des;
@@ -44,16 +40,13 @@ public class EskulAdapter extends RecyclerView.Adapter<EskulAdapter.MyViewHolder
 //        holder.text2.setText(data2[position]);
         holder.img.setImageResource(image[position]);
 
-        holder.detailLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(con, DetailActivityEskul.class);
-                intent.putExtra("data1", data1[holder.getAdapterPosition()]);
-                intent.putExtra("data2", data2[holder.getAdapterPosition()]);
-                intent.putExtra("image", image[holder.getAdapterPosition()]);
-                intent.putExtra("jadwal", jdw[holder.getAdapterPosition()]);
-                con.startActivity(intent);
-            }
+        holder.detailLayout.setOnClickListener(view -> {
+            Intent intent = new Intent(con, DetailActivityEskul.class);
+            intent.putExtra("data1", data1[holder.getAdapterPosition()]);
+            intent.putExtra("data2", data2[holder.getAdapterPosition()]);
+            intent.putExtra("image", image[holder.getAdapterPosition()]);
+            intent.putExtra("jadwal", jdw[holder.getAdapterPosition()]);
+            con.startActivity(intent);
         });
 
     }
@@ -63,7 +56,7 @@ public class EskulAdapter extends RecyclerView.Adapter<EskulAdapter.MyViewHolder
         return image.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView text1, text2;
         ImageView img;
         ConstraintLayout detailLayout;

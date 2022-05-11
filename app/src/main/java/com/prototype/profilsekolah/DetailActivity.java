@@ -26,21 +26,16 @@ public class DetailActivity extends AppCompatActivity {
         getdata();
         setdata();
 
-        iv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivity.this);
-                View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                photoView.setImageResource(image);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                mDialog.show();
-//                mDialog.getWindow().setAttributes(lp);
-            }
+        iv.setOnClickListener(view -> {
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivity.this);
+            View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout, null);
+            PhotoView photoView = mView.findViewById(R.id.imageValr);
+            photoView.setImageResource(image);
+            mBuilder.setView(mView);
+            AlertDialog mDialog = mBuilder.create();
+
+            mDialog.show();
+
         });
 
          }

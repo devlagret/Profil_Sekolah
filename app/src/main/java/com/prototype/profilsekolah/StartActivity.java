@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class StartActivity extends AppCompatActivity {
-private static int timer=3000;
+private static final int timer=3000;
 
     View ivMenu;
     @Override
@@ -14,13 +14,10 @@ private static int timer=3000;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         ivMenu = findViewById(R.id.iv_menu);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent i = new Intent(StartActivity.this, MainActivity.class);
-                startActivity(i);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            Intent i = new Intent(StartActivity.this, MainActivity.class);
+            startActivity(i);
+            finish();
         }, timer);
 
     }}

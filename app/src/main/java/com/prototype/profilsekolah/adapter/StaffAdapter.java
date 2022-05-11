@@ -17,10 +17,10 @@ import com.prototype.profilsekolah.R;
 import com.squareup.picasso.Picasso;
 
 public class StaffAdapter extends RecyclerView.Adapter<StaffAdapter.MyViewHolder> {
-    String datatxt1[], datatxt2[];
-    int image[];
+    String[] datatxt1, datatxt2;
+    int[] image;
     Context con;
-    public StaffAdapter(Context ct, String nama[], String des[], int img[]){
+    public StaffAdapter(Context ct, String[] nama, String[] des, int[] img){
         con = ct;
         datatxt1 = nama;
         datatxt2 = des;
@@ -41,26 +41,17 @@ public class StaffAdapter extends RecyclerView.Adapter<StaffAdapter.MyViewHolder
         holder.text2.setText(datatxt2[position]);
         holder.img.setImageResource(image[position]);
 
-        holder.detailLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        holder.detailLayout.setOnClickListener(view -> {
 
-//                Intent intent = new Intent(con, DetailActivityGuru.class);
-//                intent.putExtra("image", image[holder.getAdapterPosition()]);
-//                con.startActivity(intent);
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(con);
-                LayoutInflater li = (LayoutInflater) con.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                View mView = li.inflate(R.layout.dialog_custom_layout, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                Picasso.with(con).load(image[holder.getAdapterPosition()]).into(photoView);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                mDialog.show();
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(con);
+            LayoutInflater li = (LayoutInflater) con.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View mView = li.inflate(R.layout.dialog_custom_layout, null);
+            PhotoView photoView = mView.findViewById(R.id.imageValr);
+            Picasso.with(con).load(image[holder.getAdapterPosition()]).into(photoView);
+            mBuilder.setView(mView);
+            AlertDialog mDialog = mBuilder.create();
+            mDialog.show();
 //                mDialog.getWindow().setAttributes
-            }
         });
 
 
@@ -73,7 +64,7 @@ public class StaffAdapter extends RecyclerView.Adapter<StaffAdapter.MyViewHolder
         return image.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView text1, text2;
         ImageView img;
         ConstraintLayout detailLayout;

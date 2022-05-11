@@ -33,6 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
+                    android:contentDescription="@string/detail_image_activitydetail"
                     android:padding="@dimen/pad_det"
                     android:scaleType="centerInside"
                     app:srcCompat="@drawable/logo" />
@@ -53,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="TextView"
+                    android:text="@string/textview_detail"
                     android:textSize="@dimen/txtsize_primary2"
                     android:textColor="@color/text"
                     android:textStyle="bold" />
@@ -62,7 +63,7 @@
                     android:id="@+id/deskripsiesk"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textview_detaildes"
                     android:textColor="@color/text"
                     android:textSize="@dimen/txtsize_secondary" />
 
@@ -83,6 +84,7 @@
 
                 <ImageView
                     android:id="@+id/jadwal"
+                    android:contentDescription="@string/jadwal_schedule"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/jdwljdl"

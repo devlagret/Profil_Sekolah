@@ -37,42 +37,27 @@ public class HomeFragment extends Fragment {
                 .enableDoubletap(true)
                 .load();
         ivbanner = root.findViewById(R.id.banner);
-        ivbanner.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(getContext());
-                View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout2, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                photoView.setImageResource(R.drawable.banner);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                mDialog.show();
+        ivbanner.setOnClickListener(view -> {
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(requireContext());
+            View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout2, null);
+            PhotoView photoView = mView.findViewById(R.id.imageValr);
+            photoView.setImageResource(R.drawable.banner);
+            mBuilder.setView(mView);
+            AlertDialog mDialog = mBuilder.create();
+            mDialog.show();
 //                mDialog.getWindow().setAttributes(lp);
-            }
         });
-        email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intem =new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:sdkanisiuskedawung@gmail.com"));
-                startActivity(intem);
-            }
+        email.setOnClickListener(v -> {
+            Intent intem =new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:sdkanisiuskedawung@gmail.com"));
+            startActivity(intem);
         });
-        ig.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intig =new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/tk_sd_kanisius_kedawung/"));
-                startActivity(intig);
-            }
+        ig.setOnClickListener(v -> {
+            Intent intig =new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/tk_sd_kanisius_kedawung/"));
+            startActivity(intig);
         });
-        telp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent inttelp =new Intent(Intent.ACTION_DIAL, Uri.parse("tel:087880461224"));
-                startActivity(inttelp);
-            }
+        telp.setOnClickListener(v -> {
+            Intent inttelp =new Intent(Intent.ACTION_DIAL, Uri.parse("tel:087880461224"));
+            startActivity(inttelp);
         });
         return root;
     }

@@ -16,10 +16,10 @@ import com.prototype.profilsekolah.DetailActivity;
 import com.prototype.profilsekolah.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
-    String data1[], data2[];
-    int images[];
+    String[] data1, data2;
+    int[] images;
     Context context;
-    public MyAdapter(Context ct, String namaesk[], String deskripsi[], int img[]){
+    public MyAdapter(Context ct, String[] namaesk, String[] deskripsi, int[] img){
         context = ct;
         data1 = namaesk;
         data2 = deskripsi;
@@ -41,16 +41,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 //    holder.text2.setText(data2[position]);
     holder.myimg.setImageResource(images[position]);
 
-    holder.detailLayout.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
+    holder.detailLayout.setOnClickListener(view -> {
 
-            Intent intent = new Intent(context, DetailActivity.class);
-            intent.putExtra("data1", data1[holder.getAdapterPosition()]);
-            intent.putExtra("data2", data2[holder.getAdapterPosition()]);
-            intent.putExtra("image", images[holder.getAdapterPosition()]);
-            context.startActivity(intent);
-        }
+        Intent intent = new Intent(context, DetailActivity.class);
+        intent.putExtra("data1", data1[holder.getAdapterPosition()]);
+        intent.putExtra("data2", data2[holder.getAdapterPosition()]);
+        intent.putExtra("image", images[holder.getAdapterPosition()]);
+        context.startActivity(intent);
     });
     }
 
@@ -59,7 +56,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         return images.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder{
+    public static class MyViewHolder extends RecyclerView.ViewHolder{
 
         TextView text1, text2;
         ImageView myimg;

@@ -16,9 +16,9 @@ import com.prototype.profilsekolah.databinding.FragmentEskulBinding;
 
 public class    EskulFragment extends Fragment {
     RecyclerView recyclerView;
-    String namaesk[], deskripsi[];
-    int images[]={R.drawable.osn, R.drawable.tenismeja, R.drawable.keyboard,R.drawable.menyanyi, R.drawable.menari, R.drawable.logo, R.drawable.menggambar},
-        jadwal[]={R.drawable.jadwalosn, R.drawable.jadwaltenismeja, R.drawable.jadwalkeyboard, R.drawable.jadwalvokal, R.drawable.jadwaltari, R.drawable.pendampingankls6, R.drawable.jadwalmenggambar};
+    String[] namaesk, deskripsi;
+    int[] images ={R.drawable.osnkeg, R.drawable.tenismejaf, R.drawable.keybuard,R.drawable.nyanyi, R.drawable.menarif, R.drawable.pendampinganfoto, R.drawable.menggambar, R.drawable.drumben},
+        jadwal ={R.drawable.jadwalosn, R.drawable.jadwaltenismeja, R.drawable.jadwalkeyboard, R.drawable.jadwalvokal, R.drawable.jadwaltari, R.drawable.pendampingankls6, R.drawable.jadwalmenggambar, R.drawable.jadwaldrumban};
     private FragmentEskulBinding binding;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

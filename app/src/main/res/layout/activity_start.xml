@@ -12,7 +12,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="\u00A9 2022"
+        android:text="@string/copyrigth_short"
         android:textColor="#A1A1A1"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
 
     <ImageView
         android:id="@+id/logosp"
-
+        android:contentDescription="@string/splash_logo_image"
         android:layout_width="225dp"
         android:layout_height="225dp"
         android:layout_alignParentTop="true"
@@ -75,7 +75,7 @@
             android:gravity="center"
             android:textSize="12sp"
             android:textColor="#A1A1A1"
-            android:text="Dibuat Oleh : \n RPL SMK Negri 2 Karanganyar " />
+            android:text="@string/author_splash_comp" />
 
         <TextView
             android:id="@+id/textView6"
@@ -83,9 +83,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="15dp"
-            android:textSize="10sp"
+            android:textSize="11sp"
             android:textColor="#A1A1A1"
-            android:text="Ignatius  Zulio" />
-    </LinearLayout>
+            android:text="@string/creator_name" />    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

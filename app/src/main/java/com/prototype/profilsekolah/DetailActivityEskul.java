@@ -1,13 +1,13 @@
 package com.prototype.profilsekolah;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.chrisbanes.photoview.PhotoView;
 
@@ -27,37 +27,27 @@ public class DetailActivityEskul extends AppCompatActivity {
         getdata();
         setdata();
 
-        iv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivityEskul.this);
-                View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                photoView.setImageResource(image);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                mDialog.show();
-//                mDialog.getWindow().setAttributes(lp);
-            }
+        iv.setOnClickListener(view -> {
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivityEskul.this);
+            View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout, null);
+            PhotoView photoView = mView.findViewById(R.id.imageValr);
+            photoView.setImageResource(image);
+            mBuilder.setView(mView);
+            AlertDialog mDialog = mBuilder.create();
+
+            mDialog.show();
+
         });
-        ivj.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivityEskul.this);
-                View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout2, null);
-                PhotoView photoView = mView.findViewById(R.id.imageValr);
-                photoView.setImageResource(jadwal);
-                mBuilder.setView(mView);
-                AlertDialog mDialog = mBuilder.create();
-//                WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-//                lp.copyFrom(mDialog.getWindow().getAttributes());
-//                lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-                mDialog.show();
+        ivj.setOnClickListener(view -> {
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(DetailActivityEskul.this);
+            View mView = getLayoutInflater().inflate(R.layout.dialog_custom_layout2, null);
+            PhotoView photoView = mView.findViewById(R.id.imageValr);
+            photoView.setImageResource(jadwal);
+            mBuilder.setView(mView);
+            AlertDialog mDialog = mBuilder.create();
+
+            mDialog.show();
 //                mDialog.getWindow().setAttributes(lp);
-            }
         });
     }
 

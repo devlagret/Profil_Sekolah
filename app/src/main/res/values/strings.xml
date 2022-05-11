@@ -23,6 +23,7 @@
         <item>Tari</item>
         <item>Pendampingan Siswa Kelas VI</item>
         <item>Menggambar</item>
+        <item>Drumband</item>
     </string-array>
     <string-array name="deskripsi_eskul">
         <item>Olimpiade Sains Nasional (OSN) adalah ajang kompetisi tahunan dalam bidang sains bagi para siswa SD, SMP, dan SMA serta yang sederajat di seluruh Indonesia.
@@ -40,6 +41,8 @@
         <item>Extrakurikuler ini lebih mengarah ke jam tambahan bagi siswa kelas VI untuk mempersiapkan ujian sekolah, dengan extrakurikuler ini siswa diharapkan siap dan matang sebelum menghadapi ujian sehingga siswa dapat mengerjakan ujian dengan lancrar tanpa ada halangan serta mendapatkan hasil yang terbaik </item>>
         <item>Menggambar adalah kegiatan membentuk citra, dengan menggunakan banyak pilihan teknik dan alat. Bisa pula berarti membuat tanda-tanda tertentu di atas permukaan dengan mengolah goresan dari alat gambar.\n
             Dengan extrakulikuler ini siswa belajar dan memahami dalam membuat gambar bentuk yang berasal dari ide mereka sendiri, agar mereka terus bisa berkembang dan menghasilkan karya yang lebih baik lagi. Mereka juga mengenal dan belajar teknik yang dihasilkan dari berbagai alat gambar tersebut.</item>
+        <item>Drumband adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik secara bersama-sama. Penampilan drumben merupakan kombinasi dari permainan musik (tiup dan perkusi) serta aksi baris-berbaris dari pemainnya. Tujuan dan manfaat drumband antara lain: Meningkatkan kemampuan seni musik, membuat anak mampu memainkan alat musik, meningkatkan kemampuan motorik anak,
+        membuat anak lincah melakukan gerakan terkoordinasi dan meningkatkan rasa percaya diri </item>
     </string-array>
 
     <string-array name="nama_fasilitas">
@@ -78,7 +81,7 @@
     <string-array name="nama_guru">
         <item>Drs. FX. Subarno</item>
         <item>Yohanes Nova Avianto, S. Pd</item>
-        <item>Ig. Widodo,S. Pd</item>
+        <item>Albertus Supriadi</item>
         <item>Al. Trubus Ponco Hananto</item>
         <item>Bernadeta Tri Hardiyanti, S. Pd</item>
         <item>Dwi Nopianti, S. Si</item>
@@ -104,20 +107,39 @@
         <item>Penjaga Sekolah</item>
     </string-array>
 
-    <string name="isihome">TUJUAN PENDIDIKAN,\nVISI, MISI, DAN TUJUAN SEKOLAH\nA.	Tujuan Pendidikan/nTujuan Pendidikan Nasional adalah berkembangnya potensi peserta didik agar menjadi manusia yang: beriman dan bertakwa kepada Tuhan Yang Maha Esa, berakhlak mulia, sehat, berilmu, cakap, kreatif, mandiri, dan menjadi warga negara yang demokratis serta bertanggung jawab./nTujuan Pendidikan Dasar adalah meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.\nB.	Visi Sekolah\n"Komunitas pendidikan yang transformatif dan menumbuhkan kemerdekaan berpikir demi terwujudnya sekolah yang unggul, peduli, dan melayani "</string>
-    <string name="copyright">© 2022 SD Kanisius Kedawung</string>
+
+    <string name="copyright">&#169; SD Kanisius Kedawung</string>
 
     <string name="nama_sekolah">SD Kanisius Kedawung</string>
     <string name="jadwal_eskul">Jadwal pelaksanaan ekstrakurikuler :</string>
     <string name="menu_bagunan">Info Bagunan</string>
     <string name="text_deskripsi_cardview">Klik utuk melihat deskripsi&#8230;</string>
 
-    <string name="header_contente_desc">Yayasan Kanisius didirikan pada tanggal 31 Agustus 1918 oleh P. Fransiskus van Lith, S.J. di Muntilan. Yayasan kanisius bergerak dibidang pendidikan jenjang TK, SD, SMP hinga SMA</string>
+    <string name="header_contente_desc">\tYayasan Kanisius didirikan pada tanggal 31 Agustus 1918 oleh P. Fransiskus van Lith, S.J. di Muntilan. Yayasan kanisius bergerak dibidang pendidikan jenjang TK, SD, SMP hinga SMA. Nilai-nilai Kanisius antara lain: Kedisiplinan, keunggulan, kepedulian, kejujuran dan kemerdekaan</string>
     <string name="denah_sekolah">Denah Sekolah :</string>
     <string name="des_bangunan">\tSejak bedirinya SD Kanisius Kedawung, sekolah terus berkembang menjadi lebih baik, renovasi dan pembangunan terus dilakukan serta ditingkatkan agar sekolah semakin lebih maju dan dapat meciptakan lingkungan belajar yang asri, nyaman dan aman. \n\tRencananya pada tahun 2023 akan diadakan pembangunan ruang kelas baru dan diharapkan dapat menambah semangat belajar siswa untuk belajar serta meningkatkan kenyamanan belajar.</string>
     <string name="rencana_pembangunan">Rencana Pembangunan SD Kanisius Kedawung :</string>
     <string name="email_adrres">\@tk_sd_kanisius_kedawung</string>
     <string name="email_cnt">sdkanisiuskedawung\@gmail.com</string>
+    <string name="detail_image_activitydetail">detail image</string>
+    <string name="textview_detail">Judul</string>
+    <string name="textview_detaildes">Deskripsi</string>
+    <string name="jadwal_schedule">jadwal (schedule)</string>
+    <string name="copyrigth_short">&#169; 2022</string>
+    <string name="splash_logo_image">Splash logo image</string>
+    <string name="author_splash_comp">Dibuat Oleh : \n RPL SMK Negri 2 Karanganyar</string>
+    <string name="creator_name">Ignatius Zulio</string>
+    <string name="crdview_img">crdview_img</string>
+    <string name="namaeskul">namaeskul</string>
+    <string name="foto_guru">foto guru</string>
+    <string name="nama">nama</string>
+    <string name="denah">denah</string>
+    <string name="home_banner">Home banner</string>
+    <string name="instagram">Instagram</string>
+    <string name="email_img">email img</string>
+    <string name="phoneimg">phoneimg</string>
+    <string name="homeicon_below">homeicon below</string>
+    <string name="phone">+62 878&#8211;8046&#8211;1224</string>
 
 
 </resources>

@@ -27,6 +27,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:contentDescription="@string/denah"
                 android:id="@+id/denah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/des_bangunan"
-                android:textSize="19dp"
+                android:textSize="19sp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="347dp" />
 
@@ -62,7 +63,8 @@
                 android:layout_margin="5dp"
                 android:adjustViewBounds="true"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/anggaran" />
+                app:srcCompat="@drawable/anggaran"
+                android:contentDescription="@string/rencana_pembangunan" />
 
         </LinearLayout>
     </ScrollView>

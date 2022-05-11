@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/mainrowstaff">
@@ -27,6 +26,7 @@
             <ImageView
                 android:id="@+id/iVstaff"
                 android:layout_width="85dp"
+                android:contentDescription="@string/foto_guru"
                 android:layout_height="105dp"
                 android:layout_gravity="start"
                 android:layout_marginStart="@dimen/crdv_img_mrginlf"
@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="nama"
+                    android:text="@string/nama"
                     android:textColor="#000000"
                     android:textSize="@dimen/crdv_textsize_primary"
                     android:textStyle="bold" />
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="deskripsi"
+                    android:text="@string/textview_detaildes"
                     android:textColor="#003F9E"
                     android:textSize="@dimen/crdv_textsize_secondary"
                     android:textStyle="bold" />

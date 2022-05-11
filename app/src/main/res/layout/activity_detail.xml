@@ -28,7 +28,7 @@
                 android:gravity="center">
 
                 <ImageView
-
+                android:contentDescription="@string/detail_image_activitydetail"
                     android:id="@+id/iVdetail"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -53,7 +53,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="TextView"
+                    android:text="@string/textview_detail"
                     android:textColor="@color/text"
                     android:textSize="@dimen/txtsize_primary2"
                     android:textStyle="bold" />
@@ -62,7 +62,7 @@
                     android:id="@+id/deskripsi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textview_detaildes"
                     android:textColor="@color/text"
                     android:textSize="@dimen/txtsize_secondary" />
             </LinearLayout>
